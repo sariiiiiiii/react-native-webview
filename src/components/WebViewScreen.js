@@ -30,7 +30,7 @@ const WebViewScreen = () => {
         <WebView
           ref={webViewRef}
           style={styles.webview}
-          source={{ uri: 'https://edoc.postline.co.kr/contract/01?q=83F064F52434CF5269E28757A0458CB8' }}
+          source={{ uri: 'https://naver.com' }}
           onMessage={handleMessage}
         />
       )}
